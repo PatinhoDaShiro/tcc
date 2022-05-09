@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+}
+header{
+    background-color: #26292E;
+}
+#nav{
+    display: flex;
+    color: white;
+    font-size: 3.5vh;
+}
+#logo{
+    width: 19vh;
+    margin-left: 4.5vh;
+    
+  
+}
+#iconLogin{
+    width: 3vh;
+    
+}
+#icone{
+    margin-top: 0.3vh;
+    margin-right: 0.5vh;
+    float: left;
+}
+#perfil{
+    margin-left: 55rem;
+    margin-top: 4vh;
+}
+
+body{
+    background-color: #36393E;
+}
+#welcome{
+    background-color: #1F2226;
+    font-size: 2vh;
+    text-align: center;
+    width: 40%;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 10vh;
+    margin-top: 3vh;
+}
+#registro{
+    
+        background-color: #3CB51E;
+        font-size: 2vh;
+        text-align: center;
+        width: 20%;
+        color:black;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        border-radius: 10vh;
+        margin-top: 3vh;
+        border: solid 0.5vh black;
+    
+}
+#apresentacao{
+    color: rgb(214, 213, 213);
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 4vh;
+}
+#rodinha1{
+    
+    width: 85rem;
+    }
+#rodinha2{
+    margin-top: 1vh;
+    margin-left: 1.25vh;
+width: 84.8rem;
+}
+#roleta1{
+    margin-top: 10vh;
+}
