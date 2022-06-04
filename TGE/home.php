@@ -1,6 +1,9 @@
 <?php
 include 'config.php';
-include TEMPLATE_BASE.'/header.php';
+include TEMPLATE_BASE.'/head.php';
+?>
+</head>
+<?php
 include TEMPLATE_BASE.'/nav.php';
 ?>
 <body>
