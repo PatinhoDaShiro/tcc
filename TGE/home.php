@@ -23,8 +23,18 @@ include TEMPLATE_BASE.'/nav.php';
     
         <div id="jogos">
         <div id="carousel">
-        <div class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/image.png " alt=""></div>
-        <div class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/imag2.png " alt=""></div>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/apex.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/codwz.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/csgo.jpeg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/dark-souls-iii.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/destiny.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/Elden-Ring-3.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/fortnite.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/lol.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/minecraft.jpg " alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/rocketleague.jpg" alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/valorant.jpg" alt=""></a>
+        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/wow.jpg" alt=""></a>
       
 
         
