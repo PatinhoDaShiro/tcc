@@ -6,8 +6,8 @@
 /*nav*/
 #nav{    
     background-color: #26292E; 
-    padding:2vh 0 2vh 2vw;
-    
+    padding:1.5vh 0 1.5vh 1.5vw;
+    border-bottom: 1px solid black;
 }
 #perfil_link{
     float: right;
@@ -29,7 +29,9 @@ background-color: #36393E;
 }
 
 /*bem vindo*/
-
+#registrar a{
+    color:black;
+}
 #welcome{
     text-align: center;
     padding: 3vh 3vw 3vh 3vw;
@@ -69,7 +71,7 @@ p{
 }
 #carousel{
    width: 100%;
-  margin-left: 2vw;
+  margin-left: calc(2vw - 2.5px);
 }
 .imagem{
 width: 100%;
@@ -101,18 +103,22 @@ height: 100%;
     margin-left: 3px;
     font-size: 2.5vh;
     padding: 0 4vw 0 1vh;
+
 }
 #opcoesperfil{
     margin-bottom: 3vh;
     padding-left: 1vh;
+    
     margin-left: 3px;
 }
 ul{
     padding: 0;
 }
-a{
+#nick a{
     
     color: white;
 }
-
+.perfilLinks{
+    color: white;
+}
 

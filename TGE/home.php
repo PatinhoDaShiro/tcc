@@ -14,8 +14,8 @@ include TEMPLATE_BASE.'/nav.php';
     </div>
     
     <div id="div_registro">
-        <button id="registrar">
-            <h2>Junte-se a nós</h2>
+        <button id="registrar"> <a href="<?php echo URL_BASE?>/Registro/registroPage.php">
+           <h2>Junte-se a nós</h2></a>
         </button>
     </div>
     <p>The Gamers Encounter promete reunir seus usuarios para uma otima jogatina com vários amigos, por que não se juntar a nossa comunidade gamer?</p>

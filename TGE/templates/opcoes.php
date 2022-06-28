@@ -6,15 +6,15 @@
     </div>
 
     <div class="perfilitem" id="perfil_perfil">
-    <li ><a href="http://localhost/TGE/perfil.php">Perfil</a></li>
+    <li ><a class="f" href="http://localhost/TGE/perfil.php">Perfil</a></li>
     </div>
 
     <div class="perfilitem" id="perfil_Editperfil">
-    <li ><a href="http://localhost/TGE/modificarPerfil.php">Editar perfil</a></li>
+    <li ><a class="perfilLinks" href="http://localhost/TGE/modificarPerfil.php">Editar perfil</a></li>
     </div>
 
     <div class="perfilitem" id="perfil_seguranca">
-    <li ><a href="http://localhost/TGE/seguranca.php">Segurança</a></li>
+    <li ><a class="perfilLinks" href="http://localhost/TGE/seguranca.php">Segurança</a></li>
     </div>
        
 </ul>    
