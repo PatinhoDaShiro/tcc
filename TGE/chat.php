@@ -40,9 +40,10 @@ include TEMPLATE_BASE.'/head.php';
         <h2>patinho</h2>
         </div>
 
-        <div id="caixaTexto">
-            <input type="text" id="chat">
-        </div>
+
+<iframe src="mensagens.php" id="iframes">
+
+</iframe>
 
        
     </body>

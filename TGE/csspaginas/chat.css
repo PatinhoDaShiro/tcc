@@ -61,9 +61,11 @@ margin-bottom: 1.8vh;
     color: white;
     border-left: black solid 2px;
 }
-#chat{
-    width: 56.3vw;
-    height: 4vh;
-    border: 2px solid black;
-    bottom: 0;
+
+#iframes{
+    position: absolute;
+    width: 61.73vw;
+    height: 88.6vh;
+    border: none;
+    overflow-x:hidden;
 }
