@@ -4,9 +4,9 @@
 }
 #mensagens{
     width: 100vw;
-    height: 101vh;
+    height: 100vh;
     background-color: #424141;
-   
+    overflow-y: scroll;
     
 }
 #divInput{

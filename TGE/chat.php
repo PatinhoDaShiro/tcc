@@ -41,7 +41,7 @@ include TEMPLATE_BASE.'/head.php';
         </div>
 
 
-<iframe src="mensagens.php" id="iframes">
+<iframe src="http://localhost:3000" id="iframes">
 
 </iframe>
 
