@@ -1,11 +1,21 @@
 <?php
-include "config.php";
+session_start();
+include 'config.php';
+
+if(isset($_SESSION) == false){
+    header('Location:DIR_loginFuncp');
+}
+
+$nomeUsuario = $_SESSION['userName'];
+
 include TEMPLATE_BASE.'/head.php';
 ?>
+
  <link rel="stylesheet" href="<?php echo URL_BASE?>/csspaginas/chat.css" alt="">
 <?php
  include TEMPLATE_BASE.'/nav.php';
 ?>
+</head>
 <body>
     <div id="chatsMenu">
         <h1>CHATS</h1>
@@ -39,7 +49,6 @@ include TEMPLATE_BASE.'/head.php';
         <div id="usuariosLogados">
         <h2>patinho</h2>
         </div>
-
 
 <iframe src="http://localhost:3000" id="iframes">
 

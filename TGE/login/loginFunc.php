@@ -19,10 +19,9 @@ $row = mysqli_num_rows($result);
 
 if($row == 1){
     $dados = mysqli_fetch_assoc($result);
-    var_dump($dados);
     $SessionUser = $dados['usuario'];
     $_SESSION ['userName'] = $SessionUser; 
-    header('Location: painel.php');
+    header('Location: http://localhost/TGE/chat.php');
     exit();
     //se retorna 1 (verdadeiro), conclui o login
     //pega o nome de usuario existente no banco

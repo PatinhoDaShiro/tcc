@@ -1,11 +1,18 @@
 <?php
+session_start();
+error_reporting(E_ALL ^ E_NOTICE);
 include 'config.php';
+$nomeUsuario = $_SESSION['userName'];
+if(isset($_SESSION) == false){
+    include TEMPLATE_BASE.'/head.php';
+    include TEMPLATE_BASE.'/nav.php';
+}else{
 include TEMPLATE_BASE.'/head.php';
+include TEMPLATE_BASE.'/nav.php';
+
+}
 ?>
 </head>
-<?php
-include TEMPLATE_BASE.'/nav.php';
-?>
 <body>
     <section>
 
