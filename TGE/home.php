@@ -23,7 +23,7 @@ include TEMPLATE_BASE.'/nav.php';
     
         <div id="jogos">
         <div id="carousel">
-        <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/apex.jpg " alt=""></a>
+        <a href="<?php echo URL_BASE?>/Chat2.0-main/public/index.php"class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/apex.jpg " alt=""></a>
         <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/codwz.jpg " alt=""></a>
         <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/csgo.jpeg " alt=""></a>
         <a class="imagem"><img  class="img" src="<?php echo URL_BASE?>/imagens/dark-souls-iii.jpg " alt=""></a>

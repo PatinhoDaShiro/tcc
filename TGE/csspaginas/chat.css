@@ -10,7 +10,7 @@
 }
 .chatJogo{
     width: 12vw;
-    height: 6vw;
+    height: 12vh;
     margin-bottom: 1vh;
     border: black solid 2px;
 }
@@ -64,8 +64,8 @@ margin-bottom: 1.8vh;
 
 #iframes{
     position: absolute;
-    width: 61.73vw;
-    height: 88.6vh;
+    width: 61.8vw;
+    height: 88.9vh;
     border: none;
     overflow-x:hidden;
 }
