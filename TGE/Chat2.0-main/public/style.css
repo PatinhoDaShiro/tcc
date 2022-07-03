@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    
   }
   
   * {
@@ -13,7 +14,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x:hidden;
+  
     flex-direction: column;
   }
   input{
@@ -46,11 +47,14 @@ html, body {
     line-height: 50px;
     font-weight: bold;
     color: #000;
+    
     margin-top: 10px;
   }
   .menssages{
     color: rgb(230, 227, 227);
     padding: 6px 0px 6px 25px;
+  display: flex;
+  width: 97vw;
   }
   .menssages:hover{
   
@@ -59,12 +63,30 @@ html, body {
 
   .menssage {
 width: 100vw;
-    height: 100vh;
-    
+    height:100vh;
+    overflow-y:scroll;
   }
+
   #divChat{
     position: fixed;
-    margin-top: 90vh;
- 
+    bottom: 0;
+    padding-left: 2vw;
+    background-color: #2D2D2D;
+    width: 100vw;
   }
-  
+  .imagePerfil{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+
+ margin: 4px;
+  }
+  .nomeTexto{
+    display: block;
+    padding: 0 0 0 5px;
+    margin-top: 7px;
+  }
+  .nick{
+    margin-bottom: 5px;
+  }
