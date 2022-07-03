@@ -8,11 +8,11 @@ const io = require('socket.io')(server);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'public'));
-app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
+app.engine('php', require('ejs').renderFile);
+app.set('view engine', 'php');
 
 app.use('/', (req, res)=>{
-    res.render('index.html');
+    res.render('index.php');
 });
 
 let menssages = [];
