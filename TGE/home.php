@@ -25,7 +25,7 @@ include TEMPLATE_BASE.'/nav.php';
            <h2>Junte-se a nós</h2></a>
         </button>
     </div>
-    <p>The Gamers Encounter promete reunir seus usuarios para uma otima jogatina com vários amigos, por que não se juntar a nossa comunidade gamer?</p>
+    <p id="TGE">The Gamers Encounter promete reunir seus usuarios para uma otima jogatina com vários amigos, por que não se juntar a nossa comunidade gamer?</p>
     </section>
     
         <div id="jogos">
