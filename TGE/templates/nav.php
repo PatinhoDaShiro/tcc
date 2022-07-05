@@ -11,10 +11,19 @@
             echo 'Iniciar Sessão';
 
           }
+          
           ?>
           </a>
+          <div id="perfil_opcoes">
+          <ul id="ulOpcoes">
+             <li id="logout"><a href="">Sair</a></li>
+             <li id="logout"><a href="">Configurações</a></li>
+            
+         </ul>
           </div>
       </div>
+      </div>
+            
     </nav>
  
  
