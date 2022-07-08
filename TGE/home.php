@@ -18,6 +18,7 @@ include TEMPLATE_BASE.'/nav.php';
 
     <div id="welcome">
     <h1>Seja bem vindo à nossa comunidade!</h1>
+    
     </div>
     
     <div id="div_registro">

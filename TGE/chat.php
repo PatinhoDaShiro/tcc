@@ -1,5 +1,6 @@
 <?php
 session_start();
+error_reporting(E_ALL ^ E_NOTICE);
 include 'config.php';
 
 if(isset($_SESSION) == false){
@@ -17,7 +18,8 @@ include TEMPLATE_BASE.'/head.php';
 ?>
 </head>
 <body>
-    <div id="chatsMenu">
+<div id="chatBG">
+<div id="chatsMenu">
         <h1>CHATS</h1>
         
         <div class="bgChat">
@@ -27,30 +29,25 @@ include TEMPLATE_BASE.'/head.php';
         <div class="lobby">
         <span>Lobby 1: 00/25</span>
         </div>
+        
         </div>
+</div>
+   
        
 
-        <div class="hoversChat">
-        <div class="lobby">
-        <span>Lobby 2: 00/25</span>
-        </div>
-        </div>
-
-        <div class="hoversChat">
-        <div class="lobby">
-        <span>Lobby 3: 00/25</span>
-        </div>
-        </div>
-
+    
 
         </div>
         </div>
 
-        <div id="usuariosLogados">
-        <h2>patinho</h2>
+        <div id="usuariosLogadosBG">
+            <div id="users">
+            <h2 class="userLogado">patinho</h2>
+            </div>
+        
         </div>
 
-<iframe src="http://localhost:3000" id="iframes">
+<iframe src="localhost:3000" id="iframes">
 
 </iframe>
 

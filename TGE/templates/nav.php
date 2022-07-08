@@ -16,8 +16,11 @@
           </a>
           <div id="perfil_opcoes">
           <ul id="ulOpcoes">
-             <li id="logout"><a href="">Sair</a></li>
-             <li id="logout"><a href="">Configurações</a></li>
+             <li class="perfOP"><a href="">Sair</a></li>
+             <li class="perfOP"><a href="">Configurações</a></li>
+             <li class="perfOP"><a href="">Chats</a></li>
+             <li class="perfOP"><a href="">Home</a></li>
+             <li class="perfOP"><a href="">Suporte</a></li>
             
          </ul>
           </div>
