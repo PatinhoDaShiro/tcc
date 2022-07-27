@@ -47,7 +47,7 @@ include TEMPLATE_BASE.'/head.php';
         
         </div>
 
-<iframe src="localhost:3000" id="iframes">
+<iframe src="./chat/src/index.php" id="iframes">
 
 </iframe>
 
